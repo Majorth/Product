@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn and Pegasi Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton|Baskervville|Raleway&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+    <header id="header">
+        <img src="https://images.pexels.com/photos/1564506/pexels-photo-1564506.jpeg?cs=srgb&dl=pexels-mark-glancy-1564506.jpg&fm=jpg"alt="baby unicorn" id="header-img">
+        <p class="company-name">Hawthorne Unicorns and Pegasi</p>
+        <nav id="nav-bar">
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#Who_we_are">Who are we</a></li>
+                <li><a class="nav-link" href="#Prices">Prices</a></li>
+                <li><a class="nav-link" href="#Resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="rainbow">
+        <img class="rainbow-img"src="media/rainbow.jpeg" alt="rainbow">
+    </section>  
+    <section id="contact">
+        <img id="unicorn" src="media/unicorn.jpeg" alt="unicorn in pool">
+        <div id="contact-us">Contact us today to make one of these beautiful animals a part of your family!
+       <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <label for="email"><input type="email" name="email" id="email" required type="email" placeholder="Enter your email"></label>
+            <input type="submit" id="submit" value="Contact Us">
+      
+        </form>
+    </div>
+    </section>
+    <section class="who">
+        <p id="Who_we_are">Who we are</p>
+        <p class="quote"><i>"I will not rest until all children have access to a unicorn or pegasus." Michael Finn, CEO and Founder</i> </p>
+     <iframe id="video" width="700" height="450" src="https://www.youtube.com/embed/MN6BTGXDL0s" title="YouTube video player" 
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+     allowfullscreen></iframe>
+    </section>
+
+    <section class="cost">
+        <header id="Prices">Prices</header>
+        <div id="animals">
+          <div class="juvenile"><img src="media/babyunicorn2.jpeg" alt="baby unicorn"> <figcaption> Juvenile Unicorn $10,000,000</figcaption></div>
+          <div class="adult"><img src="media/adultunicorn.jpeg" alt="adult unicorn"> <figcaption>Adult Unicorn $20,000,000</figcaption></div>
+          <div class="pegasus"><img src="media/pegasus3.jpg" alt="pegasus"> <figcaption>Adult Pegasus $50,000,000</figcaption></div>
+        </div>
+    </section>
+    <section class="last">
+        <div id="Resources">Resources for Home Care of Your Unicorn or Pegasus</div>
+        <div id="home">
+          <div>Feeding</div>
+          <div>Exercise</div>
+          <div>Grooming</div>
+        </div>
+ 
+    </section>
+    <footer>
+      <div>Privacy Terms Contact Copyright 2022</div>
+    </footer>
+    <style>
+        #nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+        @media (max-width:800px){
+            .juvenile,.adult,.pegasus,#unicorn,#video,.rainbow-img {
+                max-width: fit-content;
+            }
+        }
+
+        @media (max-width:600px){
+            .juvenile,.adult,.pegasus,#unicorn,#video,.rainbow-img {
+                max-width: fit-content;
+            }
+        }
+    </style>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

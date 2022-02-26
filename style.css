@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aliceblue;
+    position: fixed;
+    height:200px;
+    width: 100%;
+}
+
+#header-img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.company-name{
+    font-family: Raleway, sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+}
+/*#nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+   added to html page for testing purposes 
+}*/
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+    gap: 60px;
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-links{
+    font-size: 2rem;
+    font-family: Raleway, sans-serif;
+    color:black;
+}
+.rainbow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsalmon;
+    
+}
+.rainbow-img{
+    width: 80vw;
+    height:70vh;
+    margin: 220px 20px 20px 20px;
+    border-radius: 15px;
+   
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+}
+#unicorn {
+    margin:20px;
+    border-radius: 5px;
+
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+.who{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+    background-color: antiquewhite;
+  
+}
+#Who_we_are {
+    font-size: 3.5rem;
+    font-family: Raleway, sans-serif;
+}
+.quote{
+    font-size: 1.50rem;
+    font-family: Raleway, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+#video{
+    margin: 20px;
+    border-radius: 5px;
+}
+.cost{
+    background-color: aqua;
+}
+
+#Prices, #Resources{
+   
+    font-size: 3.5rem;
+    font-family: Raleway, sans-serif;
+    border-bottom:2px solid black;
+    text-align: center;
+}
+#animals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    
+}
+.juvenile img, .adult img{
+    border-radius: 10px;
+
+}
+.pegasus img{
+    width: 500px;
+    height: 750px;
+    border-radius: 10px;
+}
+ figcaption{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+ }
+
+ #home{
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 2.0rem;
+    margin: 20px 0;
+ }
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 1.25rem;
+    padding:7px;
+    word-spacing: 2px;
+
+}
